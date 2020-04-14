@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9af6a8fe-323c-40fd-b27f-905b308e07c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch01/css/01-1.使用方式1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch01/css/01-2.使用方式2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch01/css/01-3.使用方式3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch01/css/1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01/css/01.CSS基本语法.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch01/css/01.CSS基本语法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01/css/02.标签名选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch01/css/02.标签名选择器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01/css/03.ID选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch01/css/03.ID选择器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01/css/04.class类型选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch01/css/04.class类型选择器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01/css/05.组合选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch01/css/05.组合选择器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01/css/06-css常用样式.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch01/css/06-css常用样式.html" afterDir="false" />
-    </list>
+    <list default="true" id="9af6a8fe-323c-40fd-b27f-905b308e07c0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +28,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ch01/css" />
@@ -63,7 +52,7 @@
       <recent name="$PROJECT_DIR$/ch01" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.06-css常用样式.html">
+  <component name="RunManager" selected="JavaScript Debug.02.标签名选择器.html (1)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -77,7 +66,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="02.标签名选择器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Java-Web-Atguigu/ch01/css/02.标签名选择器.html" useBuiltInWebServerPort="true">
+    <configuration name="02.标签名选择器.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Java-Web-Atguigu/ch02/css/02.标签名选择器.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="03.ID选择器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Java-Web-Atguigu/ch01/css/03.ID选择器.html" useBuiltInWebServerPort="true">
@@ -103,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.02.标签名选择器.html (1)" />
         <item itemvalue="JavaScript Debug.06-css常用样式.html" />
         <item itemvalue="JavaScript Debug.05.组合选择器.html" />
         <item itemvalue="JavaScript Debug.04.class类型选择器.html" />
         <item itemvalue="JavaScript Debug.03.ID选择器.html" />
-        <item itemvalue="JavaScript Debug.02.标签名选择器.html" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +113,7 @@
       <workItem from="1586830990130" duration="59000" />
       <workItem from="1586831081768" duration="375000" />
       <workItem from="1586831476756" duration="862000" />
-      <workItem from="1586832400924" duration="2825000" />
+      <workItem from="1586832400924" duration="3027000" />
     </task>
     <servers />
   </component>
@@ -140,10 +129,10 @@
       <screen x="0" y="23" width="1440" height="794" />
     </state>
     <state x="71" y="82" width="1184" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.794@0.23.1440.794" timestamp="1586831926262" />
-    <state x="221" y="23" key="SettingsEditor" timestamp="1586831536802">
+    <state x="221" y="23" key="SettingsEditor" timestamp="1586837404949">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
-    <state x="221" y="23" key="SettingsEditor/0.23.1440.794@0.23.1440.794" timestamp="1586831536802" />
+    <state x="221" y="23" key="SettingsEditor/0.23.1440.794@0.23.1440.794" timestamp="1586837404949" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1586833478027">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
@@ -152,9 +141,9 @@
       <screen x="0" y="23" width="1440" height="794" />
     </state>
     <state x="293" y="145" width="853" height="550" key="find.popup/0.23.1440.794@0.23.1440.794" timestamp="1586832045263" />
-    <state x="97" y="42" key="new project wizard" timestamp="1586831533191">
+    <state x="97" y="42" key="new project wizard" timestamp="1586837403731">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
-    <state x="97" y="42" key="new project wizard/0.23.1440.794@0.23.1440.794" timestamp="1586831533191" />
+    <state x="97" y="42" key="new project wizard/0.23.1440.794@0.23.1440.794" timestamp="1586837403731" />
   </component>
 </project>
