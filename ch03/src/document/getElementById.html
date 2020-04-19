@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script type="text/javascript">
+    /*
+     * 需求:当用户点击了较验按钮，要获取输出框中的内容。然后验证其是否合法。<br/>
+     * 验证的规则是:必须由字母，数字。下划线组成。并且长度是 5 到 12 位。
+     */
+    function onClickFun() {
+        var usernameObj = document.getElementById('username');
+        var regExp = /^\w{5,12}$/;
+        var spanObj = document.getElementById('usernameSpan');
+        if (regExp.test(usernameObj.value)) {
+          // spanObj.innerHTML = '用户名输入合法';
+          spanObj.innerHTML = '<img src="right.png" style="width:20px;height:20px"/>';
+        } else {
+          // spanObj.innerHTML = '用户名输入不合法';
+          spanObj.innerHTML = '<img src="wrong.png" style="width:20px;height:20px"/>';
+        }
+    }
+  </script>
+</head>
+<body>
+  用户名：<input id="username" type="text" />
+  <span id="usernameSpan" style="color: red">
+  </span>
+  <button onclick="onClickFun()">校验</button>
+</body>
+</html>

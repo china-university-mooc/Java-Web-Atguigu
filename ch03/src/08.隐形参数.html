@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script type="text/javascript">
+    function f(a) {
+        alert(a);
+        for (var i = 0; i < arguments.length; i++) {
+          alert(arguments[i]);
+        }
+    }
+    // f('a', 'b', 'c');
+
+    function sum(x, y) {
+        var sum = 0;
+        for (var i = 0; i < arguments.length; i++) {
+          if (typeof (arguments[i]) === 'number') {
+            sum += arguments[i];
+          }
+        }
+        return sum;
+    }
+    alert(sum(1, 'ab', 3, 6));
+  </script>
+</head>
+<body>
+
+</body>
+</html>

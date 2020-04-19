@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script type="text/javascript">
+    function f1() {
+      alert('无参函数');
+    }
+    f1();
+
+    var f2 = function (a, b) {
+      alert('有参函数， a=' + a + ',b=' + b);
+    }
+    f2('abc', 12);
+
+    var f3 = function (a, b) {
+      return a + b;
+    }
+    alert(f3(1, 8));
+  </script>
+</head>
+<body>
+
+</body>
+</html>

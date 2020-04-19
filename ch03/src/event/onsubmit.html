@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script type="text/javascript">
+    window.onload = function() {
+      var formOjb = document.getElementById('form01');
+      formOjb.onsubmit = function () {
+        alert('发现不合法');
+        return false;
+      }
+    }
+  </script>
+</head>
+<body>
+  <form action="http://localhost:8080" method="get" onsubmit="return false">
+    <input type="submit" value="静态注册"/>
+  </form>
+  <form id="form01" action="http://localhost:8080" method="get">
+    <input type="submit" value="动态注册"/>
+  </form>
+</body>
+</html>

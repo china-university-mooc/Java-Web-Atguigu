@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script type="text/javascript">
+    var person = new Object();
+    person.name = '华仔';
+    person.age = 18;
+    person.say = function () {
+      alert('我是' + this.name + '，我的年龄是' + this.age + "岁");
+    };
+    alert(person.name);
+    person.say();
+
+    var me = {
+      name: '张钊',
+      age: '26',
+      say: function () {
+        alert('我是' + this.name + '，我的年龄是' + this.age + "岁");
+      }
+    };
+    me.say();
+  </script>
+</head>
+<body>
+
+</body>
+</html>
