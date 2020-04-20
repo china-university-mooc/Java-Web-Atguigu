@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script type="text/javascript" src="script/jquery-1.7.2.js"></script>
+  <script type="text/javascript">
+    // window.onload = function () {
+    //   var btnObj = document.getElementById('btn01');
+    //   btnObj.onclick = function () {
+    //     alert('js原生事件响应');
+    //   }
+    // }
+
+    // $(document).ready(function () {
+    //   $('#btn01').click(function () {
+    //     alert('jquery事件响应');
+    //   })
+    // })
+
+
+    $(function () {
+      $('#btn01').click(function () {
+        alert('jquery事件响应');
+      })
+    })
+  </script>
+</head>
+<body>
+<button id="btn01">按钮</button>
+</body>
+</html>
