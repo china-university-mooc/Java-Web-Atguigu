@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/03_jquery/03_jquery.iml" filepath="$PROJECT_DIR$/03_jquery/03_jquery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_jquery/04_jquery.iml" filepath="$PROJECT_DIR$/04_jquery/04_jquery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_jquery/05_jquery.iml" filepath="$PROJECT_DIR$/05_jquery/05_jquery.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch01/ch01.iml" filepath="$PROJECT_DIR$/ch01/ch01.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch02/ch02.iml" filepath="$PROJECT_DIR$/ch02/ch02.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch03/ch03.iml" filepath="$PROJECT_DIR$/ch03/ch03.iml" />

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script type="text/javascript" src="script/jquery-1.7.2.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      // alert($('div').html());
+      // $('div').html('<h1>我是标题</h1>');
+
+      // alert($('div').text());
+      // $('div').text('<h1>我是标题</h1>')
+
+      // alert($(':text').val());
+      // $(':text').val('abc');
+
+      // alert($(':radio:last').val());
+      // $(':radio').val('b');
+
+      // alert($(':radio').attr('name'));
+
+      alert($(':radio:eq(0)').attr('checked'));
+      alert($(':radio:eq(1)').attr('checked'));
+
+      alert($(':radio:eq(0)').prop('checked'));
+      alert($(':radio:eq(1)').prop('checked'));
+
+      $(':radio:first').prop('checked', true);
+      $(':radio:last').prop('checked', false);
+    });
+  </script>
+</head>
+<body>
+<div>我是div<span>我是span</span></div>
+用户名：<input type="text">
+性别：<input type="radio" name="gender" value="boy">男<input type="radio" name="gender" value="girl" checked="checked">女
+</body>
+</html>
