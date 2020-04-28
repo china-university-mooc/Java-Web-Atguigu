@@ -2,32 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9af6a8fe-323c-40fd-b27f-905b308e07c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/04_jquery/src/exer/01.隔行变色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_jquery/src/exer/02.表单选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_jquery/05_jquery.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_jquery/src/01.属性操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_jquery/src/02.val批量操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_jquery/src/03.DOM操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_jquery/src/04.CSS样式操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_jquery/src/05.动画.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_jquery/src/06.文档加载.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_jquery/src/07.事件绑定.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_jquery/src/08.事件移除.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_jquery/src/09.事件冒泡.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_jquery/src/10.事件对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_jquery/src/exer/01.全选全不选.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_jquery/src/exer/02.从左到右.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_jquery/src/exer/03.添加删除记录.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_jquery/src/exer/04.品牌展示.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_jquery/src/exer/05.图片跟随.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_jquery/src/exer/img/big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_jquery/src/exer/img/down.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_jquery/src/exer/img/small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_jquery/src/exer/img/up.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_jquery/src/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0c9d731067ea976dd16d1bb644888c3c59d00680" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f0aebded0490e2d6dc83cb88be7435963ea22a8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/172940b14e88ef7f93f028b8e50be5028813dac6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b70dceae9feaf996d4b92f9398ffc91e1955c49" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1ea1fa43d45541b353378488f3ebd24ab78603d2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30e5ca924aecf76f48897df2fa31801d394f6fba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/33bc20fbd41d12c1a8ba44fb2e9248250a7a7fa8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/0/407d3aa804eaed8830c27d37f50492cefd3f1a3f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4abc6a042de5b23ec9fc98298d5f89d61e2ba1d4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d71a9315324d7b4758822bc2ec19cf0d9bafd83" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/5862197086ee966af1741539fcfbc6b5277147ed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5b7cfc97b2e0bf48ef0db466359b8be3065ae632" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/608613206ffa92fbc5bb9982c3fc6f023548e674" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/65cd4e5233a74672b8a9d51603d363978bc18a46" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/3/7308f7606930404579cc3201dd73392184b660b8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/7699ea4c5acf3a6b8da2873519fc3ad0894b2233" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78ea2430f89b888251ea2ec78e72c5bad7e70245" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/864d268363e4df7d1774c5ab2450c73957fcb715" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a32a1769312d7d771e7c3377a67310f0053b44b3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a574948e50a012dc2edd51f1aee990d21a2cbc05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba1f200d35ce86deede240491a63da799747b3f4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/bad97d37941c1a29dc68cad4c9f9cc5ab4fbfb05" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be19349b7b7e967dc29814fe936da5f63902a0e5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf625ee5be6de88fef7c214b19803223ac488bdd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c70be94b4abf452c1ef3cc23dcf9e71c234ac31b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d18d1e461be7e7d43c45199920979b603cdcc468" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d83803ddde5b46e28a5c763d68c685a18d8e94fa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da9ddd7e32cc0101bfd3c0feadb559b51c956005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/dfab682975317f2118bc2507697e9e914f7df1b9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3ef8660865ebc6ade02821450c469b2b5dfe246" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4f953eb39d59eb6715b30395635d3e7aca17c31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe092cc0dc3caad944b1a341cb849cdc760cc8c6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-books-step1/06-books-step1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-books-step1/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-books-step1/src/pages/cart/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-books-step1/src/pages/cart/checkout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-books-step1/src/pages/manager/book_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-books-step1/src/pages/manager/book_manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-books-step1/src/pages/manager/manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-books-step1/src/pages/manager/order_manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-books-step1/src/pages/order/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-books-step1/src/pages/user/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-books-step1/src/pages/user/login_success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-books-step1/src/pages/user/regist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-books-step1/src/pages/user/regist_success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-books-step1/src/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-books-step1/src/static/img/code.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-books-step1/src/static/img/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-books-step1/src/static/img/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-books-step1/src/static/img/pwd-icons-new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-books-step1/src/static/script/jquery-1.7.2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_jquery/04_jquery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/04_jquery/04_jquery.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +77,6 @@
   <component name="ProjectId" id="1aVqDFRCKpyMx3zCAg1I30VQDJt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="flattenPackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -60,7 +87,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.last.introduce.type" value="VAR" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/04_jquery/src/exer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/06-books-step1/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -76,19 +103,19 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/04_jquery/src/exer" />
-      <recent name="$PROJECT_DIR$/05_jquery/src/exer" />
-      <recent name="$PROJECT_DIR$/05_jquery/src" />
-      <recent name="$PROJECT_DIR$/05_jquery/src/script" />
-      <recent name="$PROJECT_DIR$/05_jquery" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/05_jquery/src/exer/img" />
       <recent name="$PROJECT_DIR$/05_jquery/src" />
       <recent name="$PROJECT_DIR$/03_jquery/src" />
       <recent name="$PROJECT_DIR$/03_jquery" />
       <recent name="$PROJECT_DIR$/03_jquery/Demo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/06-books-step1/src" />
+      <recent name="$PROJECT_DIR$/04_jquery/src/exer" />
+      <recent name="$PROJECT_DIR$/05_jquery/src/exer" />
+      <recent name="$PROJECT_DIR$/05_jquery/src" />
+      <recent name="$PROJECT_DIR$/05_jquery/src/script" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.02.表单选择器.html">
@@ -154,7 +181,8 @@
       <workItem from="1586831476756" duration="862000" />
       <workItem from="1586832400924" duration="3218000" />
       <workItem from="1587133063465" duration="8854000" />
-      <workItem from="1587382126362" duration="18941000" />
+      <workItem from="1587382126362" duration="19167000" />
+      <workItem from="1588083563029" duration="1596000" />
     </task>
     <servers />
   </component>
@@ -174,11 +202,20 @@
       <screen x="0" y="23" width="1440" height="794" />
     </state>
     <state x="416" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.794@0.23.1440.794" timestamp="1587483179891" />
-    <state x="221" y="23" key="SettingsEditor" timestamp="1587474366370">
-      <screen x="0" y="23" width="1440" height="794" />
+    <state x="269" y="356" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588084211620">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="269" y="356" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.801@0.23.1440.801" timestamp="1588084211620" />
+    <state x="256" y="26" key="CommitChangelistDialog2" timestamp="1588083705340">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="256" y="26" key="CommitChangelistDialog2/0.23.1440.801@0.23.1440.801" timestamp="1588083705340" />
+    <state x="221" y="23" key="SettingsEditor" timestamp="1588083723299">
+      <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="221" y="23" key="SettingsEditor/0.23.1440.794@0.23.1440.794" timestamp="1587474366370" />
     <state x="221" y="23" key="SettingsEditor/0.23.1440.795@0.23.1440.795" timestamp="1587133094748" />
+    <state x="221" y="23" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1588083723299" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1587477340875">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
@@ -196,11 +233,12 @@
     </state>
     <state x="293" y="145" width="853" height="550" key="find.popup/0.23.1440.794@0.23.1440.794" timestamp="1587478908784" />
     <state x="293" y="145" width="853" height="551" key="find.popup/0.23.1440.795@0.23.1440.795" timestamp="1587138722366" />
-    <state x="97" y="42" key="new project wizard" timestamp="1587474360346">
-      <screen x="0" y="23" width="1440" height="794" />
+    <state x="97" y="42" key="new project wizard" timestamp="1588083692176">
+      <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="97" y="42" key="new project wizard/0.23.1440.794@0.23.1440.794" timestamp="1587474360346" />
     <state x="97" y="42" key="new project wizard/0.23.1440.795@0.23.1440.795" timestamp="1587133089301" />
+    <state x="97" y="42" key="new project wizard/0.23.1440.801@0.23.1440.801" timestamp="1588083692176" />
     <state x="385" y="141" width="670" height="676" key="search.everywhere.popup" timestamp="1587475096850">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
