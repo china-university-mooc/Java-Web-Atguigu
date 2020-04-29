@@ -2,59 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9af6a8fe-323c-40fd-b27f-905b308e07c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0c9d731067ea976dd16d1bb644888c3c59d00680" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f0aebded0490e2d6dc83cb88be7435963ea22a8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/172940b14e88ef7f93f028b8e50be5028813dac6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b70dceae9feaf996d4b92f9398ffc91e1955c49" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1ea1fa43d45541b353378488f3ebd24ab78603d2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30e5ca924aecf76f48897df2fa31801d394f6fba" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/33bc20fbd41d12c1a8ba44fb2e9248250a7a7fa8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/0/407d3aa804eaed8830c27d37f50492cefd3f1a3f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4abc6a042de5b23ec9fc98298d5f89d61e2ba1d4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d71a9315324d7b4758822bc2ec19cf0d9bafd83" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/5862197086ee966af1741539fcfbc6b5277147ed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5b7cfc97b2e0bf48ef0db466359b8be3065ae632" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/608613206ffa92fbc5bb9982c3fc6f023548e674" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/65cd4e5233a74672b8a9d51603d363978bc18a46" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/3/7308f7606930404579cc3201dd73392184b660b8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/7699ea4c5acf3a6b8da2873519fc3ad0894b2233" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/78ea2430f89b888251ea2ec78e72c5bad7e70245" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/864d268363e4df7d1774c5ab2450c73957fcb715" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a32a1769312d7d771e7c3377a67310f0053b44b3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a574948e50a012dc2edd51f1aee990d21a2cbc05" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba1f200d35ce86deede240491a63da799747b3f4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/bad97d37941c1a29dc68cad4c9f9cc5ab4fbfb05" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/be19349b7b7e967dc29814fe936da5f63902a0e5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf625ee5be6de88fef7c214b19803223ac488bdd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c70be94b4abf452c1ef3cc23dcf9e71c234ac31b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d18d1e461be7e7d43c45199920979b603cdcc468" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d83803ddde5b46e28a5c763d68c685a18d8e94fa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da9ddd7e32cc0101bfd3c0feadb559b51c956005" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/dfab682975317f2118bc2507697e9e914f7df1b9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3ef8660865ebc6ade02821450c469b2b5dfe246" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4f953eb39d59eb6715b30395635d3e7aca17c31" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe092cc0dc3caad944b1a341cb849cdc760cc8c6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-books-step1/06-books-step1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-books-step1/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-books-step1/src/pages/cart/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-books-step1/src/pages/cart/checkout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-books-step1/src/pages/manager/book_edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-books-step1/src/pages/manager/book_manager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-books-step1/src/pages/manager/manager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-books-step1/src/pages/manager/order_manager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-books-step1/src/pages/order/order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-books-step1/src/pages/user/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-books-step1/src/pages/user/login_success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-books-step1/src/pages/user/regist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-books-step1/src/pages/user/regist_success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-books-step1/src/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-books-step1/src/static/img/code.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-books-step1/src/static/img/default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-books-step1/src/static/img/logo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-books-step1/src/static/img/pwd-icons-new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-books-step1/src/static/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-xml/06-xml.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-xml/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-xml/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-xml/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-xml/src/Dom4jTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-xml/src/books.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-xml/src/com/itutry/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-xml/xml/test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +25,7 @@
         <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -87,7 +45,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.last.introduce.type" value="VAR" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/06-books-step1/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/06-xml/lib" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -97,7 +55,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -111,16 +69,37 @@
       <recent name="$PROJECT_DIR$/03_jquery/Demo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/06-xml/lib" />
+      <recent name="$PROJECT_DIR$/06-xml/src" />
       <recent name="$PROJECT_DIR$/06-books-step1/src" />
       <recent name="$PROJECT_DIR$/04_jquery/src/exer" />
       <recent name="$PROJECT_DIR$/05_jquery/src/exer" />
-      <recent name="$PROJECT_DIR$/05_jquery/src" />
-      <recent name="$PROJECT_DIR$/05_jquery/src/script" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.02.表单选择器.html">
+  <component name="RunManager" selected="JUnit.Dom4jTest.readXMLtoObject">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dom4jTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="06-xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Dom4jTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dom4jTest.readXMLtoObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="06-xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Dom4jTest" />
+      <option name="METHOD_NAME" value="readXMLtoObject" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,12 +120,6 @@
     <configuration name="05.图片跟随.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Java-Web-Atguigu/05_jquery/exer/05.图片跟随.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="09.事件冒泡.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Java-Web-Atguigu/05_jquery/09.事件冒泡.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="10.事件对象.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Java-Web-Atguigu/05_jquery/10.事件对象.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -158,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Dom4jTest.readXMLtoObject" />
+        <item itemvalue="JUnit.Dom4jTest" />
         <item itemvalue="JavaScript Debug.02.表单选择器.html" />
         <item itemvalue="JavaScript Debug.01.隔行变色.html" />
         <item itemvalue="JavaScript Debug.05.图片跟随.html" />
-        <item itemvalue="JavaScript Debug.10.事件对象.html" />
-        <item itemvalue="JavaScript Debug.09.事件冒泡.html" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +155,7 @@
       <workItem from="1586832400924" duration="3218000" />
       <workItem from="1587133063465" duration="8854000" />
       <workItem from="1587382126362" duration="19167000" />
-      <workItem from="1588083563029" duration="1596000" />
+      <workItem from="1588083563029" duration="4660000" />
     </task>
     <servers />
   </component>
@@ -202,6 +175,10 @@
       <screen x="0" y="23" width="1440" height="794" />
     </state>
     <state x="416" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.794@0.23.1440.794" timestamp="1587483179891" />
+    <state x="533" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1588121810386">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="533" y="113" key="#com.intellij.ide.util.MemberChooser/0.23.1440.798@0.23.1440.798" timestamp="1588121810386" />
     <state x="269" y="356" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588084211620">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
@@ -210,12 +187,29 @@
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="256" y="26" key="CommitChangelistDialog2/0.23.1440.801@0.23.1440.801" timestamp="1588083705340" />
-    <state x="221" y="23" key="SettingsEditor" timestamp="1588083723299">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state width="1398" height="242" key="GridCell.Tab.0.bottom" timestamp="1588122491108">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1398" height="242" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1588122491108" />
+    <state width="1398" height="242" key="GridCell.Tab.0.center" timestamp="1588122491107">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1398" height="242" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1588122491107" />
+    <state width="1398" height="242" key="GridCell.Tab.0.left" timestamp="1588122491107">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1398" height="242" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1588122491107" />
+    <state width="1398" height="242" key="GridCell.Tab.0.right" timestamp="1588122491107">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state width="1398" height="242" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1588122491107" />
+    <state x="221" y="23" key="SettingsEditor" timestamp="1588120969124">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="221" y="23" key="SettingsEditor/0.23.1440.794@0.23.1440.794" timestamp="1587474366370" />
     <state x="221" y="23" key="SettingsEditor/0.23.1440.795@0.23.1440.795" timestamp="1587133094748" />
-    <state x="221" y="23" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1588083723299" />
+    <state x="221" y="23" key="SettingsEditor/0.23.1440.798@0.23.1440.798" timestamp="1588120969124" />
+    <state x="221" y="23" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1588085562996" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1587477340875">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
@@ -233,12 +227,12 @@
     </state>
     <state x="293" y="145" width="853" height="550" key="find.popup/0.23.1440.794@0.23.1440.794" timestamp="1587478908784" />
     <state x="293" y="145" width="853" height="551" key="find.popup/0.23.1440.795@0.23.1440.795" timestamp="1587138722366" />
-    <state x="97" y="42" key="new project wizard" timestamp="1588083692176">
+    <state x="97" y="42" key="new project wizard" timestamp="1588085499175">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="97" y="42" key="new project wizard/0.23.1440.794@0.23.1440.794" timestamp="1587474360346" />
     <state x="97" y="42" key="new project wizard/0.23.1440.795@0.23.1440.795" timestamp="1587133089301" />
-    <state x="97" y="42" key="new project wizard/0.23.1440.801@0.23.1440.801" timestamp="1588083692176" />
+    <state x="97" y="42" key="new project wizard/0.23.1440.801@0.23.1440.801" timestamp="1588085499175" />
     <state x="385" y="141" width="670" height="676" key="search.everywhere.popup" timestamp="1587475096850">
       <screen x="0" y="23" width="1440" height="794" />
     </state>

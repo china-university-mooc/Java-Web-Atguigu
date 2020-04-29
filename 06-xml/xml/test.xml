@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<books>
+  <!--这是一个XML注释-->
+  <book id="SN123123413241">
+    <name>java 编程思想</name>
+    <author>华仔</author>
+    <price>9.9</price>
+  </book>
+
+  <Book id="SN12341235123">
+    <name>葵花宝典</name>
+    <author>班长</author>
+    <price>5.5</price>
+  </Book>
+
+  <单标签 />
+  <双标签 属性="值">文本</双标签>
+  <转义>&lt;</转义>
+  <![CDATA[这是纯文本 <name>葵花宝典</name>]]>
+</books>
