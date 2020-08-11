@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/08-servlet/08-servlet.iml" filepath="$PROJECT_DIR$/08-servlet/08-servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/09-book/09-book.iml" filepath="$PROJECT_DIR$/09-book/09-book.iml" />
       <module fileurl="file://$PROJECT_DIR$/09-servlet/09-servlet.iml" filepath="$PROJECT_DIR$/09-servlet/09-servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-jsp/10-jsp.iml" filepath="$PROJECT_DIR$/10-jsp/10-jsp.iml" />
     </modules>
   </component>
 </project>
