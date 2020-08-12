@@ -8,6 +8,7 @@
     <file type="web" url="file://$PROJECT_DIR$/01-css/12-file" />
     <file type="web" url="file://$PROJECT_DIR$/10-jsp" />
     <file type="web" url="file://$PROJECT_DIR$/11-el-jstl" />
+    <file type="web" url="file://$PROJECT_DIR$/12-file" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -15,10 +16,11 @@
         <option value="$PROJECT_DIR$/10-jsp/pom.xml" />
         <option value="$PROJECT_DIR$/11-el-jstl/pom.xml" />
         <option value="$PROJECT_DIR$/01-css/12-file/pom.xml" />
+        <option value="$PROJECT_DIR$/12-file/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

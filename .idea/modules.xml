@@ -15,7 +15,8 @@
       <module fileurl="file://$PROJECT_DIR$/09-servlet/09-servlet.iml" filepath="$PROJECT_DIR$/09-servlet/09-servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/10-jsp/10-jsp.iml" filepath="$PROJECT_DIR$/10-jsp/10-jsp.iml" />
       <module fileurl="file://$PROJECT_DIR$/11-el-jstl/11-el-jstl.iml" filepath="$PROJECT_DIR$/11-el-jstl/11-el-jstl.iml" />
-      <module fileurl="file://$PROJECT_DIR$/01-css/12-file/12-file.iml" filepath="$PROJECT_DIR$/01-css/12-file/12-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12-file/12-file.iml" filepath="$PROJECT_DIR$/12-file/12-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13-book-step3/13-book-step3.iml" filepath="$PROJECT_DIR$/13-book-step3/13-book-step3.iml" />
     </modules>
   </component>
 </project>
