@@ -24,10 +24,10 @@ public class LoginServlet extends HttpServlet {
     String username = request.getParameter("username");
     String password = request.getParameter("password");
     if (userService.login(new User(null, username, password, null)) != null) {
-      request.getRequestDispatcher("/pages/user/login_success.html").forward(request, response);
+      request.getRequestDispatcher("/pages/user/login_success.jsp").forward(request, response);
     } else {
       System.out.println("用户名或密码错误");
-      request.getRequestDispatcher("/pages/user/login.html").forward(request, response);
+      request.getRequestDispatcher("/pages/user/login.jsp").forward(request, response);
     }
   }
 }
