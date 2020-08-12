@@ -2,17 +2,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>尚硅谷会员注册页面</title>
-	<base href="/book/"/>
-<link type="text/css" rel="stylesheet" href="static/css/style.css" >
+	<title>尚硅谷会员注册页面</title>
+	<%@include file="/pages/common/head.jsp"%>
 <style type="text/css">
 	.login_form{
 		height:420px;
 		margin-top: 25px;
 	}
 </style>
-	<script type="text/javascript" src="static/script/jquery-1.7.2.js"></script>
 	<script type="text/javascript">
 		// 验证用户名:必须由字母，数字下划线组成，并且长度为 5 到 12 位
 		// 验证密码:必须由字母，数字下划线组成，并且长度为 5 到 12 位

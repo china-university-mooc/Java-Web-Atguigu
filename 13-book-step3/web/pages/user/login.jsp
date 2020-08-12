@@ -2,10 +2,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>尚硅谷会员登录页面</title>
-	<base href="/book/"/>
-<link type="text/css" rel="stylesheet" href="static/css/style.css" >
+	<title>尚硅谷会员登录页面</title>
+	<%@include file="/pages/common/head.jsp"%>
 </head>
 <body>
 		<div id="login_header">

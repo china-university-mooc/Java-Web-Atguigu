@@ -2,9 +2,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>订单管理</title>
-<link type="text/css" rel="stylesheet" href="../../static/css/style.css" >
+	<title>订单管理</title>
+	<%@include file="/pages/common/head.jsp"%>
 </head>
 <body>
 	

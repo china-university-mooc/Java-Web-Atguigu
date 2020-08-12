@@ -2,9 +2,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>图书管理</title>
-<link type="text/css" rel="stylesheet" href="../../static/css/style.css" >
+	<title>图书管理</title>
+	<%@include file="/pages/common/head.jsp"%>
 </head>
 <body>
 	

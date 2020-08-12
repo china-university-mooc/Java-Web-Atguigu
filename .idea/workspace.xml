@@ -28,21 +28,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9af6a8fe-323c-40fd-b27f-905b308e07c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/13-book-step3/web/pages/common/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-book-step3/web/pages/common/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-book-step3/web/pages/common/login_success_menu.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-book-step3/src/com/itutry/web/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/src/com/itutry/web/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-book-step3/src/com/itutry/web/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/src/com/itutry/web/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-book-step3/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/cart/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/cart/cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/cart/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/cart/checkout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/manager/book_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/manager/book_edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/manager/book_manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/manager/book_manager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/manager/manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/manager/manager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/manager/order_manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/manager/order_manager.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/order/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/order/order.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/user/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/user/login_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/user/login_success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/user/regist.html" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/user/regist.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/user/regist_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/user/regist_success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/cart/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/cart/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/cart/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/cart/checkout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/manager/book_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/manager/book_manager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/manager/manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/manager/manager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/manager/order_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/manager/order_manager.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/order/order.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/order/order.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/user/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/user/login_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/user/login_success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/user/regist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/user/regist_success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/user/regist_success.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,11 +116,11 @@
       <recent name="com.itutry.test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/13-book-step3/web/pages/common" />
       <recent name="$PROJECT_DIR$/05_jquery/src/exer/img" />
       <recent name="$PROJECT_DIR$/05_jquery/src" />
       <recent name="$PROJECT_DIR$/03_jquery/src" />
       <recent name="$PROJECT_DIR$/03_jquery" />
-      <recent name="$PROJECT_DIR$/03_jquery/Demo" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -891,7 +890,7 @@
       <workItem from="1592277179438" duration="4630000" />
       <workItem from="1597020150149" duration="62000" />
       <workItem from="1597064943616" duration="47999000" />
-      <workItem from="1597235111002" duration="8009000" />
+      <workItem from="1597235111002" duration="9409000" />
     </task>
     <servers />
   </component>
@@ -1078,6 +1077,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="348" y="64" width="859" height="757" key="NewModule_or_Project.wizard/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597241269290" />
+    <state x="378" y="88" key="RollbackChangesDialog" timestamp="1597243720229">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="378" y="88" key="RollbackChangesDialog/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597243720229" />
     <state x="129" y="23" width="1118" height="839" key="SettingsEditor" timestamp="1597241490786">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -1097,10 +1100,11 @@
     <state width="500" height="476" key="SwitcherDM/0.23.1440.801@0.23.1440.801" timestamp="1591084675571" />
     <state width="500" height="522" key="SwitcherDM/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597240488732" />
     <state width="500" height="522" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1597070541387" />
-    <state x="335" y="38" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589597790475">
-      <screen x="0" y="23" width="1440" height="794" />
+    <state x="335" y="40" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1597243580139">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="335" y="38" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.794@0.23.1440.794" timestamp="1589597790475" />
+    <state x="335" y="40" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597243580139" />
     <state x="499" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591082713492">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
@@ -1109,10 +1113,10 @@
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="269" y="163" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.801@0.23.1440.801" timestamp="1591085360527" />
-    <state x="163" y="206" width="860" height="568" key="find.popup" timestamp="1597243298459">
+    <state x="163" y="206" width="860" height="602" key="find.popup" timestamp="1597243754984">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="163" y="206" width="860" height="568" key="find.popup/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597243298459" />
+    <state x="163" y="206" width="860" height="602" key="find.popup/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597243754984" />
     <state x="172" y="23" key="new project wizard" timestamp="1597214608542">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
