@@ -17,6 +17,7 @@ public class RequestServlet extends HttpServlet {
       HttpServletResponse response)
       throws ServletException, IOException {
     System.out.println("URI => " + request.getRequestURI());
+    System.out.println("Protocol => " + request.getProtocol());
     System.out.println("URL => " + request.getRequestURL());
     System.out.println("客户端IP地址 => " + request.getRemoteHost());
 

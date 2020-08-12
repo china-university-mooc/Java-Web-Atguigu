@@ -6,11 +6,13 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/10-jsp" />
+    <file type="web" url="file://$PROJECT_DIR$/11-el-jstl" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/10-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/11-el-jstl/pom.xml" />
       </list>
     </option>
   </component>

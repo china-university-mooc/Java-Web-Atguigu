@@ -15,6 +15,7 @@ public class ForwardCServlet extends HttpServlet {
   protected void doGet(HttpServletRequest request,
       HttpServletResponse response)
       throws ServletException, IOException {
+      request.setAttribute("key", "value");
       request.getRequestDispatcher("/a/b/c.html").forward(request, response);
   }
 }
