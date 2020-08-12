@@ -9,6 +9,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="12-file" />
         <module name="10-jsp" />
         <module name="11-el-jstl" />
       </profile>
@@ -16,6 +17,7 @@
     <bytecodeTargetLevel>
       <module name="10-jsp" target="1.8" />
       <module name="11-el-jstl" target="1.8" />
+      <module name="12-file" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
