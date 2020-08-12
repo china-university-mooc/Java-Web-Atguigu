@@ -24,13 +24,9 @@
 		<div id="header">
 			<img class="logo_img" alt="" src="../../static/img/logo.gif" >
 			<span class="wel_word">编辑图书</span>
-			<div>
-				<a href="book_manager.jsp">图书管理</a>
-				<a href="order_manager.jsp">订单管理</a>
-				<a href="../../index.jsp">返回商城</a>
-			</div>
+			<%@include file="/pages/common/manager_menu.jsp"%>
 		</div>
-		
+
 		<div id="main">
 			<form action="book_manager.jsp">
 				<table>
@@ -41,7 +37,7 @@
 						<td>销量</td>
 						<td>库存</td>
 						<td colspan="2">操作</td>
-					</tr>		
+					</tr>
 					<tr>
 						<td><input name="book_name" type="text" value="时间简史"/></td>
 						<td><input name="book_price" type="text" value="30.00"/></td>
@@ -49,17 +45,13 @@
 						<td><input name="book_sales" type="text" value="200"/></td>
 						<td><input name="book_stock" type="text" value="300"/></td>
 						<td><input type="submit" value="提交"/></td>
-					</tr>	
+					</tr>
 				</table>
 			</form>
-			
-	
+
+
 		</div>
-		
-		<div id="bottom">
-			<span>
-				尚硅谷书城.Copyright &copy;2015
-			</span>
-		</div>
+
+		<%@ include file="/pages/common/footer.jsp"%>
 </body>
 </html>
