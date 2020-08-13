@@ -5,23 +5,13 @@ import com.itutry.service.UserService;
 import com.itutry.service.impl.UserServiceImpl;
 
 import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-public class UserServlet extends HttpServlet {
+public class UserServlet extends BaseServlet {
 
     private final UserService userService = new UserServiceImpl();
-
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String action = request.getParameter("action");
-        if ("login".equals(action)) {
-            login(request, response);
-        } else if ("regist".equals(action)) {
-            regist(request, response);
-        }
-    }
 
     /**
      * 处理注册的功能
@@ -31,7 +21,7 @@ public class UserServlet extends HttpServlet {
      * @throws ServletException
      * @throws IOException
      */
-    private void regist(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    public void regist(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String code = request.getParameter("code");
         String username = request.getParameter("username");
         String password = request.getParameter("password");
@@ -66,7 +56,7 @@ public class UserServlet extends HttpServlet {
      * @throws ServletException
      * @throws IOException
      */
-    private void login(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    public void login(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
         if (userService.login(new User(null, username, password, null)) != null) {
