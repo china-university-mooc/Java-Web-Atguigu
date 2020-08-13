@@ -1,6 +1,7 @@
 package com.itutry.service;
 
 import com.itutry.pojo.Book;
+import com.itutry.pojo.Page;
 
 import java.util.List;
 
@@ -15,4 +16,6 @@ public interface BookService {
     Book queryBookById(Integer id);
 
     List<Book> queryBooks();
+
+    Page<Book> page(int pageNo, int pageSize);
 }

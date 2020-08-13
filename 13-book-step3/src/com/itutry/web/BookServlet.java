@@ -1,6 +1,7 @@
 package com.itutry.web;
 
 import com.itutry.pojo.Book;
+import com.itutry.pojo.Page;
 import com.itutry.service.BookService;
 import com.itutry.service.impl.BookServiceImpl;
 import com.itutry.utils.WebUtils;
@@ -45,6 +46,16 @@ public class BookServlet extends BaseServlet {
     protected void list(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         List<Book> books = bookService.queryBooks();
         req.setAttribute("books", books);
+        req.getRequestDispatcher("/pages/manager/book_manager.jsp").forward(req, resp);
+    }
+
+    protected void page(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        int pageNo = WebUtils.parseInt(req.getParameter("pageNo"), 1);
+        int pageSize = WebUtils.parseInt(req.getParameter("pageSize"), Page.PAGE_SIZE);
+
+        Page<Book> page = bookService.page(pageNo, pageSize);
+
+        req.setAttribute("page", page);
         req.getRequestDispatcher("/pages/manager/book_manager.jsp").forward(req, resp);
     }
 }

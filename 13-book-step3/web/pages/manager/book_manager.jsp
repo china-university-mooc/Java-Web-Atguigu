@@ -16,7 +16,7 @@
 	</script>
 </head>
 <body>
-	
+
 	<div id="header">
 		<img class="logo_img" alt="" src="static/img/logo.gif" >
 		<span class="wel_word">图书管理系统</span>
@@ -33,7 +33,7 @@
 				<td>库存</td>
 				<td colspan="2">操作</td>
 			</tr>
-			<c:forEach items="${requestScope.books}" var="book">
+			<c:forEach items="${requestScope.page.items}" var="book">
 				<tr>
 					<td>${book.name}</td>
 					<td>${book.price}</td>
@@ -54,6 +54,17 @@
 				<td><a href="pages/manager/book_edit.jsp">添加图书</a></td>
 			</tr>	
 		</table>
+		<div id="page_nav">
+			<a href="#">首页</a>
+			<a href="#">上一页</a>
+			<a href="#">3</a>
+			【${requestScope.page.pageNo}】
+			<a href="#">5</a>
+			<a href="#">下一页</a>
+			<a href="#">末页</a>
+			共${requestScope.page.pageTotal}页，${requestScope.page.totalCount}条记录 到第<input value="4" name="pn" id="pn_input"/>页
+			<input type="button" value="确定">
+		</div>
 	</div>
 
 	<%@ include file="/pages/common/footer.jsp"%>
