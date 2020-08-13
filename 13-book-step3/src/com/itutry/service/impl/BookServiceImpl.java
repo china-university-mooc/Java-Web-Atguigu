@@ -53,6 +53,13 @@ public class BookServiceImpl implements BookService {
         }
         page.setPageTotal(pageTotal);
 
+        // 数据边界的有效检查
+        if (pageNo < 1) {
+            pageNo = 1;
+        }
+        if (pageNo > pageTotal) {
+            pageNo = pageTotal;
+        }
         page.setPageNo(pageNo);
 
         int begin = (pageNo - 1) * pageSize;

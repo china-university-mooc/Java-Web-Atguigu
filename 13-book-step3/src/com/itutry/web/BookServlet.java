@@ -17,23 +17,26 @@ public class BookServlet extends BaseServlet {
     private final BookService bookService = new BookServiceImpl();
 
     protected void add(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        int pageNo = WebUtils.parseInt(req.getParameter("pageNo"), 0) + 1;
         Book book = WebUtils.mapToBean(req.getParameterMap(), Book.class);
         bookService.addBook(book);
 //        req.getRequestDispatcher("/manager/book?action=list").forward(req, resp);
         // 防止表单重复提交，使用重定向
-        resp.sendRedirect(req.getContextPath() + "/manager/book?action=list");
+        resp.sendRedirect(req.getContextPath() + "/manager/book?action=page&pageNo=" + pageNo);
     }
 
     protected void delete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         int id = WebUtils.parseInt(req.getParameter("id"), 0);
+        int pageNo = WebUtils.parseInt(req.getParameter("pageNo"), 0);
         bookService.deleteBookById(id);
-        resp.sendRedirect(req.getContextPath() + "/manager/book?action=list");
+        resp.sendRedirect(req.getContextPath() + "/manager/book?action=page&pageNo=" + pageNo);
     }
 
     protected void update(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        int pageNo = WebUtils.parseInt(req.getParameter("pageNo"), 0);
         Book book = WebUtils.mapToBean(req.getParameterMap(), Book.class);
         bookService.updateBook(book);
-        resp.sendRedirect(req.getContextPath() + "/manager/book?action=list");
+        resp.sendRedirect(req.getContextPath() + "/manager/book?action=page&pageNo=" + pageNo);
     }
 
     protected void get(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

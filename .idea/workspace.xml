@@ -29,6 +29,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9af6a8fe-323c-40fd-b27f-905b308e07c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-book-step3/src/com/itutry/pojo/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/src/com/itutry/pojo/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-book-step3/src/com/itutry/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/src/com/itutry/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-book-step3/src/com/itutry/web/BookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/src/com/itutry/web/BookServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/manager/book_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/manager/book_edit.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/13-book-step3/web/pages/manager/book_manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/web/pages/manager/book_manager.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -892,7 +896,7 @@
       <workItem from="1592277179438" duration="4630000" />
       <workItem from="1597020150149" duration="62000" />
       <workItem from="1597064943616" duration="47999000" />
-      <workItem from="1597235111002" duration="46149000" />
+      <workItem from="1597235111002" duration="47363000" />
     </task>
     <servers />
   </component>
@@ -1119,13 +1123,13 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="449" y="199" width="549" height="524" key="StructurePopup/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597161286080" />
-    <state width="500" height="536" key="SwitcherDM" timestamp="1597333372334">
+    <state width="500" height="536" key="SwitcherDM" timestamp="1597335173244">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="500" height="447" key="SwitcherDM/0.23.1440.795@0.23.1440.795" timestamp="1591060468942" />
     <state width="500" height="456" key="SwitcherDM/0.23.1440.798@0.23.1440.798" timestamp="1591063642004" />
     <state width="500" height="476" key="SwitcherDM/0.23.1440.801@0.23.1440.801" timestamp="1591084675571" />
-    <state width="500" height="536" key="SwitcherDM/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597333372334" />
+    <state width="500" height="536" key="SwitcherDM/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597335173244" />
     <state width="500" height="522" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1597070541387" />
     <state x="335" y="40" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1597249099254">
       <screen x="0" y="23" width="1440" height="877" />
@@ -1168,10 +1172,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="415" y="226" key="refactoring.ChangeSignatureDialog/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597280287766" />
-    <state x="383" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1597327529537">
+    <state x="383" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1597335039136">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="383" y="211" width="672" height="678" key="search.everywhere.popup/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597327529537" />
+    <state x="383" y="211" width="672" height="678" key="search.everywhere.popup/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597335039136" />
     <state x="383" y="211" width="672" height="678" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1597149109114" />
   </component>
 </project>
