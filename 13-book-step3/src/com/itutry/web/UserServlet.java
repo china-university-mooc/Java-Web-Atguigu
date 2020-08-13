@@ -3,6 +3,7 @@ package com.itutry.web;
 import com.itutry.pojo.User;
 import com.itutry.service.UserService;
 import com.itutry.service.impl.UserServiceImpl;
+import com.itutry.utils.ReflectUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -24,11 +25,11 @@ public class UserServlet extends BaseServlet {
     public void regist(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String code = request.getParameter("code");
         String username = request.getParameter("username");
-        String password = request.getParameter("password");
         String email = request.getParameter("email");
+        User user = ReflectUtils.mapToBean(request.getParameterMap(), User.class);
+
         if (code.equalsIgnoreCase("abcd")) {
             if (!userService.existUserName(username)) {
-                User user = new User(null, username, password, email);
                 userService.register(user);
                 request.getRequestDispatcher("/pages/user/regist_success.jsp").forward(request, response);
             } else {
@@ -58,8 +59,8 @@ public class UserServlet extends BaseServlet {
      */
     public void login(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String username = request.getParameter("username");
-        String password = request.getParameter("password");
-        if (userService.login(new User(null, username, password, null)) != null) {
+        User user = ReflectUtils.mapToBean(request.getParameterMap(), User.class);
+        if (userService.login(user) != null) {
             request.getRequestDispatcher("/pages/user/login_success.jsp").forward(request, response);
         } else {
             System.out.println("用户名或密码错误");
