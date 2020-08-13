@@ -27,16 +27,14 @@ public class BookServlet extends BaseServlet {
 
     protected void delete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         int id = WebUtils.parseInt(req.getParameter("id"), 0);
-        int pageNo = WebUtils.parseInt(req.getParameter("pageNo"), 0);
         bookService.deleteBookById(id);
-        resp.sendRedirect(req.getContextPath() + "/manager/book?action=page&pageNo=" + pageNo);
+        resp.sendRedirect(req.getContextPath() + "/manager/book?action=page&pageNo=" + req.getParameter("pageNo"));
     }
 
     protected void update(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        int pageNo = WebUtils.parseInt(req.getParameter("pageNo"), 0);
         Book book = WebUtils.mapToBean(req.getParameterMap(), Book.class);
         bookService.updateBook(book);
-        resp.sendRedirect(req.getContextPath() + "/manager/book?action=page&pageNo=" + pageNo);
+        resp.sendRedirect(req.getContextPath() + "/manager/book?action=page&pageNo=" + req.getParameter("pageNo"));
     }
 
     protected void get(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
