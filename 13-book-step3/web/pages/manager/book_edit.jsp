@@ -2,9 +2,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>编辑图书</title>
-<link type="text/css" rel="stylesheet" href="../../static/css/style.css" >
+	<title>编辑图书</title>
+	<%@ include file="/pages/common/head.jsp"%>>
 <style type="text/css">
 	h1 {
 		text-align: center;
