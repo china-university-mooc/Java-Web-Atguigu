@@ -1,7 +1,3 @@
-DROP DATABASE IF EXISTS book;
-
-CREATE DATABASE book;
-
 USE book;
 
 CREATE TABLE `user` (

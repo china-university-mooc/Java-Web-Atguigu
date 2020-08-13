@@ -27,21 +27,38 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9af6a8fe-323c-40fd-b27f-905b308e07c0" name="Default Changelist" comment="" />
+    <list default="true" id="9af6a8fe-323c-40fd-b27f-905b308e07c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/13-book-step3/src/book.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-book-step3/src/com/itutry/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-book-step3/src/com/itutry/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-book-step3/src/com/itutry/pojo/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-book-step3/src/com/itutry/test/BookDaoImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-book-step3/src/init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7c93f8d7-0fb2-4cfd-924c-f7c8a440a80e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7c93f8d7-0fb2-4cfd-924c-f7c8a440a80e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-book-step3/book.sql" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/src/user.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-book-step3/mysql.sh" beforeDir="false" afterPath="$PROJECT_DIR$/13-book-step3/src/mysql.sh" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
         <option value="CSS File" />
-        <option value="JUnit4 Test Class" />
         <option value="HTML File" />
         <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="JavaFXApplication" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -94,18 +111,18 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.itutry.test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/13-book-step3/src" />
       <recent name="$PROJECT_DIR$/13-book-step3/web/pages/common" />
       <recent name="$PROJECT_DIR$/05_jquery/src/exer/img" />
       <recent name="$PROJECT_DIR$/05_jquery/src" />
       <recent name="$PROJECT_DIR$/03_jquery/src" />
-      <recent name="$PROJECT_DIR$/03_jquery" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -118,35 +135,7 @@
       <recent name="$PROJECT_DIR$/09-book/web/WEB-INF/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.13-book-step3">
-    <configuration name="Base64Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itutry.base64.Base64Test" />
-      <module name="12-file" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itutry.base64.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DownloadServlet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.itutry.servlet.DownloadServlet" />
-      <module name="12-file" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itutry.servlet.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.BookDaoImplTest.deleteBookById">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -166,41 +155,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceImplTest.existUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="09-book" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itutry.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.itutry.test" />
-      <option name="MAIN_CLASS_NAME" value="com.itutry.test.UserServiceImplTest" />
-      <option name="METHOD_NAME" value="existUserName" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceImplTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="09-book" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itutry.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.itutry.test" />
-      <option name="MAIN_CLASS_NAME" value="com.itutry.test.UserServiceImplTest" />
-      <option name="METHOD_NAME" value="login" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServletTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookDaoImplTest.addBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="13-book-step3" />
       <extension name="coverage">
         <pattern>
@@ -209,8 +164,76 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.itutry.test" />
-      <option name="MAIN_CLASS_NAME" value="com.itutry.test.UserServletTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="com.itutry.test.BookDaoImplTest" />
+      <option name="METHOD_NAME" value="addBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookDaoImplTest.deleteBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="13-book-step3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itutry.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itutry.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itutry.test.BookDaoImplTest" />
+      <option name="METHOD_NAME" value="deleteBookById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookDaoImplTest.queryBookById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="13-book-step3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itutry.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itutry.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itutry.test.BookDaoImplTest" />
+      <option name="METHOD_NAME" value="queryBookById" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookDaoImplTest.queryBooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="13-book-step3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itutry.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itutry.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itutry.test.BookDaoImplTest" />
+      <option name="METHOD_NAME" value="queryBooks" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookDaoImplTest.updateBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="13-book-step3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itutry.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itutry.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itutry.test.BookDaoImplTest" />
+      <option name="METHOD_NAME" value="updateBook" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -826,10 +849,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DownloadServlet" />
-      <item itemvalue="Application.Base64Test" />
-      <item itemvalue="JUnit.UserServiceImplTest.login" />
-      <item itemvalue="JUnit.UserServiceImplTest.existUserName" />
       <item itemvalue="Tomcat Server.12-file" />
       <item itemvalue="Tomcat Server.10-jsp" />
       <item itemvalue="Tomcat Server.11-el-jstl" />
@@ -838,15 +857,19 @@
       <item itemvalue="Tomcat Server.09-servlet" />
       <item itemvalue="Tomcat Server.09-book" />
       <item itemvalue="Tomcat Server.13-book-step3" />
-      <item itemvalue="JUnit.UserServletTest.test1" />
+      <item itemvalue="JUnit.BookDaoImplTest.queryBooks" />
+      <item itemvalue="JUnit.BookDaoImplTest.queryBookById" />
+      <item itemvalue="JUnit.BookDaoImplTest.updateBook" />
+      <item itemvalue="JUnit.BookDaoImplTest.addBook" />
+      <item itemvalue="JUnit.BookDaoImplTest.deleteBookById" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserServletTest.test1" />
-        <item itemvalue="Application.Base64Test" />
-        <item itemvalue="Application.DownloadServlet" />
-        <item itemvalue="JUnit.UserServiceImplTest.existUserName" />
-        <item itemvalue="JUnit.UserServiceImplTest.login" />
+        <item itemvalue="JUnit.BookDaoImplTest.deleteBookById" />
+        <item itemvalue="JUnit.BookDaoImplTest.addBook" />
+        <item itemvalue="JUnit.BookDaoImplTest.updateBook" />
+        <item itemvalue="JUnit.BookDaoImplTest.queryBookById" />
+        <item itemvalue="JUnit.BookDaoImplTest.queryBooks" />
       </list>
     </recent_temporary>
   </component>
@@ -875,7 +898,7 @@
       <workItem from="1592277179438" duration="4630000" />
       <workItem from="1597020150149" duration="62000" />
       <workItem from="1597064943616" duration="47999000" />
-      <workItem from="1597235111002" duration="21735000" />
+      <workItem from="1597235111002" duration="25724000" />
     </task>
     <servers />
   </component>
@@ -899,6 +922,10 @@
       <screen x="0" y="23" width="1440" height="795" />
     </state>
     <state x="320" y="85" key="#Notifications/0.23.1440.795@0.23.1440.795" timestamp="1591077690233" />
+    <state x="82" y="262" key="#SQL_Dialects" timestamp="1597288453313">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="82" y="262" key="#SQL_Dialects/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597288453313" />
     <state x="93" y="23" width="1073" height="877" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597241673133">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -907,17 +934,21 @@
     <state x="71" y="82" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.801@0.23.1440.801" timestamp="1591084419405" />
     <state x="93" y="23" width="1073" height="877" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597241673133" />
     <state x="93" y="88" width="1073" height="754" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1597070735336" />
-    <state x="533" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1597284309128">
+    <state x="533" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1597289685269">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="533" y="113" key="#com.intellij.ide.util.MemberChooser/0.23.1440.794@0.23.1440.794" timestamp="1589596054677" />
     <state x="533" y="114" key="#com.intellij.ide.util.MemberChooser/0.23.1440.801@0.23.1440.801" timestamp="1591082565306" />
-    <state x="533" y="123" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597284309128" />
+    <state x="533" y="123" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597289685269" />
     <state x="533" y="123" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1597149139826" />
     <state x="458" y="203" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1591082709203">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="458" y="203" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1440.801@0.23.1440.801" timestamp="1591082709203" />
+    <state x="457" y="214" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1597291138967">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="457" y="214" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597291138967" />
     <state x="471" y="196" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1591080287983">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
@@ -926,37 +957,37 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="143" y="99" key="DiffContextDialog/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597286331696" />
-    <state width="1227" height="391" key="GridCell.Tab.0.bottom" timestamp="1597286599041">
+    <state width="1396" height="259" key="GridCell.Tab.0.bottom" timestamp="1597290627481">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1229" height="351" key="GridCell.Tab.0.bottom/0.23.1440.794@0.23.1440.794" timestamp="1589599618612" />
     <state width="1227" height="246" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1591078876303" />
     <state width="1227" height="312" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1591085454451" />
-    <state width="1227" height="391" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597286599041" />
+    <state width="1396" height="259" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597290627481" />
     <state width="1227" height="461" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1597222779451" />
-    <state width="1227" height="391" key="GridCell.Tab.0.center" timestamp="1597286599040">
+    <state width="1396" height="259" key="GridCell.Tab.0.center" timestamp="1597290627479">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1229" height="351" key="GridCell.Tab.0.center/0.23.1440.794@0.23.1440.794" timestamp="1589599618611" />
     <state width="1227" height="246" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1591078876302" />
     <state width="1227" height="312" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1591085454450" />
-    <state width="1227" height="391" key="GridCell.Tab.0.center/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597286599040" />
+    <state width="1396" height="259" key="GridCell.Tab.0.center/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597290627479" />
     <state width="1227" height="461" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1597222779450" />
-    <state width="1227" height="391" key="GridCell.Tab.0.left" timestamp="1597286599040">
+    <state width="1396" height="259" key="GridCell.Tab.0.left" timestamp="1597290627479">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1229" height="351" key="GridCell.Tab.0.left/0.23.1440.794@0.23.1440.794" timestamp="1589599618611" />
     <state width="1227" height="246" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1591078876301" />
     <state width="1227" height="312" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1591085454449" />
-    <state width="1227" height="391" key="GridCell.Tab.0.left/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597286599040" />
+    <state width="1396" height="259" key="GridCell.Tab.0.left/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597290627479" />
     <state width="1227" height="461" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1597222779449" />
-    <state width="1227" height="391" key="GridCell.Tab.0.right" timestamp="1597286599041">
+    <state width="1396" height="259" key="GridCell.Tab.0.right" timestamp="1597290627480">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1229" height="351" key="GridCell.Tab.0.right/0.23.1440.794@0.23.1440.794" timestamp="1589599618612" />
     <state width="1227" height="246" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1591078876302" />
     <state width="1227" height="312" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1591085454450" />
-    <state width="1227" height="391" key="GridCell.Tab.0.right/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597286599041" />
+    <state width="1396" height="259" key="GridCell.Tab.0.right/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597290627480" />
     <state width="1227" height="461" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1597222779451" />
     <state width="1227" height="391" key="GridCell.Tab.1.bottom" timestamp="1597286599044">
       <screen x="0" y="23" width="1440" height="877" />
@@ -1074,24 +1105,24 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="378" y="88" key="RollbackChangesDialog/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597286332937" />
-    <state x="129" y="23" width="1118" height="839" key="SettingsEditor" timestamp="1597280478774">
+    <state x="129" y="23" width="1118" height="839" key="SettingsEditor" timestamp="1597290640994">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="221" y="23" key="SettingsEditor/0.23.1440.794@0.23.1440.794" timestamp="1589597113717" />
     <state x="221" y="23" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1591080304138" />
-    <state x="129" y="23" width="1118" height="839" key="SettingsEditor/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597280478774" />
+    <state x="129" y="23" width="1118" height="839" key="SettingsEditor/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597290640994" />
     <state x="221" y="23" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1597070708841" />
     <state x="449" y="199" width="549" height="524" key="StructurePopup" timestamp="1597161286080">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="449" y="199" width="549" height="524" key="StructurePopup/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597161286080" />
-    <state width="500" height="522" key="SwitcherDM" timestamp="1597286724855">
+    <state width="500" height="522" key="SwitcherDM" timestamp="1597290412494">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="500" height="447" key="SwitcherDM/0.23.1440.795@0.23.1440.795" timestamp="1591060468942" />
     <state width="500" height="456" key="SwitcherDM/0.23.1440.798@0.23.1440.798" timestamp="1591063642004" />
     <state width="500" height="476" key="SwitcherDM/0.23.1440.801@0.23.1440.801" timestamp="1591084675571" />
-    <state width="500" height="522" key="SwitcherDM/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597286724855" />
+    <state width="500" height="522" key="SwitcherDM/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597290412494" />
     <state width="500" height="522" key="SwitcherDM/0.23.1440.877@0.23.1440.877" timestamp="1597070541387" />
     <state x="335" y="40" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1597249099254">
       <screen x="0" y="23" width="1440" height="877" />
@@ -1102,10 +1133,11 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="517" y="381" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597282488870" />
-    <state x="499" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591082713492">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state x="499" y="166" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1597290160902">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="499" y="154" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.801@0.23.1440.801" timestamp="1591082713492" />
+    <state x="499" y="166" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597290160902" />
     <state x="269" y="163" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1591085360527">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
@@ -1114,10 +1146,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="457" y="174" width="537" height="596" key="extract.method.dialog/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597280174948" />
-    <state x="163" y="206" width="860" height="602" key="find.popup" timestamp="1597243754984">
+    <state x="163" y="206" width="860" height="602" key="find.popup" timestamp="1597288861639">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="163" y="206" width="860" height="602" key="find.popup/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597243754984" />
+    <state x="163" y="206" width="860" height="602" key="find.popup/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597288861639" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1597279122287">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -1133,10 +1165,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="415" y="226" key="refactoring.ChangeSignatureDialog/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597280287766" />
-    <state x="383" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1597286575261">
+    <state x="383" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1597286916579">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="383" y="211" width="672" height="678" key="search.everywhere.popup/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597286575261" />
+    <state x="383" y="211" width="672" height="678" key="search.everywhere.popup/0.23.1440.877/-1920.23.1920.1057@0.23.1440.877" timestamp="1597286916579" />
     <state x="383" y="211" width="672" height="678" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1597149109114" />
   </component>
 </project>
