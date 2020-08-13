@@ -3,7 +3,7 @@ package com.itutry.web;
 import com.itutry.pojo.Book;
 import com.itutry.service.BookService;
 import com.itutry.service.impl.BookServiceImpl;
-import com.itutry.utils.ReflectUtils;
+import com.itutry.utils.WebUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -16,7 +16,7 @@ public class BookServlet extends BaseServlet {
     private final BookService bookService = new BookServiceImpl();
 
     protected void add(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        Book book = ReflectUtils.mapToBean(req.getParameterMap(), Book.class);
+        Book book = WebUtils.mapToBean(req.getParameterMap(), Book.class);
         bookService.addBook(book);
 //        req.getRequestDispatcher("/manager/book?action=list").forward(req, resp);
         // 防止表单重复提交，使用重定向
@@ -24,7 +24,9 @@ public class BookServlet extends BaseServlet {
     }
 
     protected void delete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+        int id = WebUtils.parseInt(req.getParameter("id"), 0);
+        bookService.deleteBookById(id);
+        resp.sendRedirect(req.getContextPath() + "/manager/book?action=list");
     }
 
     protected void update(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

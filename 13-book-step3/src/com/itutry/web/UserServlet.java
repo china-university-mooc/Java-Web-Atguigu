@@ -3,7 +3,7 @@ package com.itutry.web;
 import com.itutry.pojo.User;
 import com.itutry.service.UserService;
 import com.itutry.service.impl.UserServiceImpl;
-import com.itutry.utils.ReflectUtils;
+import com.itutry.utils.WebUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -26,7 +26,7 @@ public class UserServlet extends BaseServlet {
         String code = request.getParameter("code");
         String username = request.getParameter("username");
         String email = request.getParameter("email");
-        User user = ReflectUtils.mapToBean(request.getParameterMap(), User.class);
+        User user = WebUtils.mapToBean(request.getParameterMap(), User.class);
 
         if (code.equalsIgnoreCase("abcd")) {
             if (!userService.existUserName(username)) {
@@ -59,7 +59,7 @@ public class UserServlet extends BaseServlet {
      */
     public void login(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String username = request.getParameter("username");
-        User user = ReflectUtils.mapToBean(request.getParameterMap(), User.class);
+        User user = WebUtils.mapToBean(request.getParameterMap(), User.class);
         if (userService.login(user) != null) {
             request.getRequestDispatcher("/pages/user/login_success.jsp").forward(request, response);
         } else {

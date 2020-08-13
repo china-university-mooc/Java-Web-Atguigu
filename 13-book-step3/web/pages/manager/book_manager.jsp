@@ -5,6 +5,15 @@
 <head>
 	<title>图书管理</title>
 	<%@include file="/pages/common/head.jsp"%>
+	<script type="application/javascript">
+		$(function () {
+			//
+			$("a.deleteClass").click(function () {
+				var name = $(this).parent().parent().find("td:first").text()
+				return confirm("你确定要删除【" + name + "】吗?");
+			})
+		})
+	</script>
 </head>
 <body>
 	
@@ -32,7 +41,7 @@
 					<td>${book.sales}</td>
 					<td>${book.stock}</td>
 					<td><a href="pages/manager/book_edit.jsp">修改</a></td>
-					<td><a href="#">删除</a></td>
+					<td><a class="deleteClass" href="manager/book?action=delete&id=${book.id}">删除</a></td>
 				</tr>
 			</c:forEach>
 			<tr>

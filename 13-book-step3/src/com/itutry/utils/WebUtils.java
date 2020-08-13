@@ -4,7 +4,7 @@ import org.apache.commons.beanutils.BeanUtils;
 
 import java.util.Map;
 
-public class ReflectUtils {
+public class WebUtils {
 
     public static <T> T mapToBean(Map map, Class<T> type) {
         try {
@@ -14,6 +14,15 @@ public class ReflectUtils {
             return bean;
         } catch (Exception e) {
             throw new RuntimeException(e);
+        }
+    }
+
+    public static int parseInt(String str, int defaultValue) {
+        try {
+            return Integer.parseInt(str);
+        } catch (NumberFormatException e) {
+            e.printStackTrace();
+            return defaultValue;
         }
     }
 }
