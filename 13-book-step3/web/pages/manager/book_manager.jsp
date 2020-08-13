@@ -15,7 +15,13 @@
 
 			$("#searchPageBtn").click(function () {
 				pageNo = $("#pn_input").val();
-				location.href = "http://localhost:8080/book/manager/book?action=page&pageNo=" + pageNo;
+				if (pageNo < 1) {
+					pageNo = 1;
+				}
+				if (pageNo > ${requestScope.page.pageTotal}) {
+					pageNo = ${requestScope.page.pageTotal}
+				}
+				location.href =  "${pageScope.basePath}manager/book?action=page&pageNo=" + pageNo;
 			})
 		})
 	</script>
@@ -71,7 +77,7 @@
 				<a href="manager/book?action=page&pageNo=${requestScope.page.pageNo + 1}">下一页</a>
 				<a href="manager/book?action=page&pageNo=${requestScope.page.pageTotal}">末页</a>
 			</c:if>
-			共${requestScope.page.pageTotal}页，${requestScope.page.totalCount}条记录 到第<input value="${param.pageNo}" name="pn" id="pn_input"/>页
+			共${requestScope.page.pageTotal}页，${requestScope.page.totalCount}条记录 到第<input value="${requestScope.page.pageNo}" name="pn" id="pn_input"/>页
 			<input id = "searchPageBtn" type="button" value="确定">
 		</div>
 	</div>

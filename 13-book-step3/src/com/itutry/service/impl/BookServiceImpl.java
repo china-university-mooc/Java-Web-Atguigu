@@ -40,17 +40,20 @@ public class BookServiceImpl implements BookService {
     @Override
     public Page<Book> page(int pageNo, int pageSize) {
         Page<Book> page = new Page<>();
-        page.setPageNo(pageNo);
         page.setPageSize(pageSize);
 
+        // 求记录数
         int totalCount = bookDao.queryForTotalCount();
         page.setTotalCount(totalCount);
 
+        // 求总页数
         int pageTotal = totalCount / pageSize;
         if (totalCount % pageSize > 0) {
             pageTotal++;
         }
         page.setPageTotal(pageTotal);
+
+        page.setPageNo(pageNo);
 
         int begin = (pageNo - 1) * pageSize;
         List<Book> items = bookDao.queryForPageItems(begin, pageSize);
