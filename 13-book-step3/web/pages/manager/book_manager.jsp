@@ -9,8 +9,13 @@
 		$(function () {
 			//
 			$("a.deleteClass").click(function () {
-				var name = $(this).parent().parent().find("td:first").text()
+				var name = $(this).parent().parent().find("td:first").text();
 				return confirm("你确定要删除【" + name + "】吗?");
+			})
+
+			$("#searchPageBtn").click(function () {
+				pageNo = $("#pn_input").val();
+				location.href = "http://localhost:8080/book/manager/book?action=page&pageNo=" + pageNo;
 			})
 		})
 	</script>
@@ -66,8 +71,8 @@
 				<a href="manager/book?action=page&pageNo=${requestScope.page.pageNo + 1}">下一页</a>
 				<a href="manager/book?action=page&pageNo=${requestScope.page.pageTotal}">末页</a>
 			</c:if>
-			共${requestScope.page.pageTotal}页，${requestScope.page.totalCount}条记录 到第<input value="4" name="pn" id="pn_input"/>页
-			<input type="button" value="确定">
+			共${requestScope.page.pageTotal}页，${requestScope.page.totalCount}条记录 到第<input value="${param.pageNo}" name="pn" id="pn_input"/>页
+			<input id = "searchPageBtn" type="button" value="确定">
 		</div>
 	</div>
 
