@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
@@ -28,7 +29,9 @@
 
 		<div id="main">
 			<form action="manager/book" method="post">
-				<input type="hidden" name="action" value="add">
+<%--				<input type="hidden" name="action" value="${empty param.id ? "add" : "update"}">--%>
+				<input type="hidden" name="action" value="${empty requestScope.book ? "add" : "update"}">
+				<input type="hidden" name="id" value="${param.id}">
 				<table>
 					<tr>
 						<td>名称</td>
@@ -39,11 +42,11 @@
 						<td colspan="2">操作</td>
 					</tr>
 					<tr>
-						<td><input name="name" type="text" value=""/></td>
-						<td><input name="price" type="text" value=""/></td>
-						<td><input name="author" type="text" value=""/></td>
-						<td><input name="sales" type="text" value=""/></td>
-						<td><input name="stock" type="text" value=""/></td>
+						<td><input name="name" type="text" value="${requestScope.book.name}"/></td>
+						<td><input name="price" type="text" value="${requestScope.book.price}"/></td>
+						<td><input name="author" type="text" value="${requestScope.book.author}"/></td>
+						<td><input name="sales" type="text" value="${requestScope.book.sales}"/></td>
+						<td><input name="stock" type="text" value="${requestScope.book.stock}"/></td>
 						<td><input type="submit" value="提交"/></td>
 					</tr>
 				</table>

@@ -30,7 +30,16 @@ public class BookServlet extends BaseServlet {
     }
 
     protected void update(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        Book book = WebUtils.mapToBean(req.getParameterMap(), Book.class);
+        bookService.updateBook(book);
+        resp.sendRedirect(req.getContextPath() + "/manager/book?action=list");
+    }
 
+    protected void get(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        int id = WebUtils.parseInt(req.getParameter("id"), 0);
+        Book book = bookService.queryBookById(id);
+        req.setAttribute("book", book);
+        req.getRequestDispatcher("/pages/manager/book_edit.jsp").forward(req, resp);
     }
 
     protected void list(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
