@@ -30,10 +30,16 @@ public class RegisterServlet extends HttpServlet {
         userService.register(user);
         request.getRequestDispatcher("/pages/user/regist_success.jsp").forward(request, response);
       } else {
+        request.setAttribute("errMsg", "用户名已存在！");
+        request.setAttribute("username", username);
+        request.setAttribute("email", email);
         System.out.println("用户名[" + username + "]已存在");
         request.getRequestDispatcher("/pages/user/regist.jsp").forward(request, response);
       }
     } else {
+      request.setAttribute("errMsg", "验证码错误！");
+      request.setAttribute("username", username);
+      request.setAttribute("email", email);
       System.out.println("验证码[" + code + "]错误");
       request.getRequestDispatcher("/pages/user/regist.jsp").forward(request, response);
     }
