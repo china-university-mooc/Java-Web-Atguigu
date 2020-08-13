@@ -71,3 +71,5 @@ insert into book(`id` , `name` , `author` , `price` , `sales` , `stock` , `img_p
 values(null , '人月神话' , '刚哥' , 88.15 , 20 , 80 , 'static/img/default.jpg');
 
 select * from book;
+
+delete from book where id in (24, 25);

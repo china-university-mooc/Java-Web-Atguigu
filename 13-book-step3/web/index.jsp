@@ -6,7 +6,7 @@
 	<%@include file="/pages/common/head.jsp"%>
 </head>
 <body>
-	
+
 	<div id="header">
 			<img class="logo_img" alt="" src="static/img/logo.gif" >
 			<span class="wel_word">网上书城</span>
@@ -171,6 +171,10 @@
 	
 	</div>
 
-	<%@ include file="/pages/common/footer.jsp"%>
+	<div id="bottom">
+		<span>
+			尚硅谷书城.Copyright &copy;2015
+		</span>
+	</div>
 </body>
 </html>
