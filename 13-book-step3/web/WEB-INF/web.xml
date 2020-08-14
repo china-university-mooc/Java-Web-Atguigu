@@ -11,6 +11,10 @@
         <servlet-name>BookServlet</servlet-name>
         <servlet-class>com.itutry.web.BookServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>clientBookServlet</servlet-name>
+        <servlet-class>com.itutry.web.ClientBookServlet</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>UserServlet</servlet-name>
@@ -19,5 +23,9 @@
     <servlet-mapping>
         <servlet-name>BookServlet</servlet-name>
         <url-pattern>/manager/book</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>clientBookServlet</servlet-name>
+        <url-pattern>/client/book</url-pattern>
     </servlet-mapping>
 </web-app>

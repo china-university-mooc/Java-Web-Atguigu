@@ -102,9 +102,6 @@
 				</c:if>
 			</c:forEach>
 <%--			页码输出的结束--%>
-<%--			<a href="manager/book?action=page&pageNo=1">3</a>--%>
-<%--			【${requestScope.page.pageNo}】--%>
-<%--			<a href="manager/book?action=page&pageNo=1">5</a>--%>
 			<c:if test="${requestScope.page.pageNo < requestScope.page.pageTotal}">
 				<a href="manager/book?action=page&pageNo=${requestScope.page.pageNo + 1}">下一页</a>
 				<a href="manager/book?action=page&pageNo=${requestScope.page.pageTotal}">末页</a>
