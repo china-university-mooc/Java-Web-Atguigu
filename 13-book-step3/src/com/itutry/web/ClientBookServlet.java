@@ -33,7 +33,15 @@ public class ClientBookServlet extends BaseServlet {
         int max = WebUtils.parseInt(req.getParameter("max"), Integer.MAX_VALUE);
 
         Page<Book> page = bookService.pageByPrice(pageNo, pageSize, min, max);
-        page.setUrl("client/book?action=pageByPrice");
+        // url中带上价格区间
+        StringBuffer sb = new StringBuffer("client/book?action=pageByPrice");
+        if (req.getParameter("min") != null) {
+            sb.append("&min=").append(req.getParameter("min"));
+        }
+        if (req.getParameter("max") != null) {
+            sb.append("&max=").append(req.getParameter("max"));
+        }
+        page.setUrl(sb.toString());
 
         req.setAttribute("page", page);
         req.getRequestDispatcher("/pages/client/index.jsp").forward(req, resp);
