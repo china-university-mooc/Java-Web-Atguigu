@@ -16,6 +16,8 @@ public class Page<T> {
     // 当前页数据
     private List<T> items;
 
+    private String url;
+
     public Page() {
     }
 
@@ -65,6 +67,14 @@ public class Page<T> {
 
     public void setItems(List<T> items) {
         this.items = items;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
     }
 
     @Override
