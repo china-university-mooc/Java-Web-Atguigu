@@ -72,4 +72,4 @@ values(null , '人月神话' , '刚哥' , 88.15 , 20 , 80 , 'static/img/default.
 
 select * from book;
 
-delete from book where id in (24, 25);
+select * from book where price between 10 and 50 order by price limit 0, 4;

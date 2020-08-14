@@ -17,11 +17,23 @@ public class ClientBookServlet extends BaseServlet {
 
     protected void page(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         int pageNo = WebUtils.parseInt(req.getParameter("pageNo"), 1);
-
         int pageSize = WebUtils.parseInt(req.getParameter("pageSize"), Page.PAGE_SIZE);
 
         Page<Book> page = bookService.page(pageNo, pageSize);
         page.setUrl("client/book?action=page");
+
+        req.setAttribute("page", page);
+        req.getRequestDispatcher("/pages/client/index.jsp").forward(req, resp);
+    }
+
+    protected void pageByPrice(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        int pageNo = WebUtils.parseInt(req.getParameter("pageNo"), 1);
+        int pageSize = WebUtils.parseInt(req.getParameter("pageSize"), Page.PAGE_SIZE);
+        int min = WebUtils.parseInt(req.getParameter("min"), 0);
+        int max = WebUtils.parseInt(req.getParameter("max"), Integer.MAX_VALUE);
+
+        Page<Book> page = bookService.pageByPrice(pageNo, pageSize, min, max);
+        page.setUrl("client/book?action=pageByPrice");
 
         req.setAttribute("page", page);
         req.getRequestDispatcher("/pages/client/index.jsp").forward(req, resp);

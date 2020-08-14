@@ -52,18 +52,34 @@ public class BookServiceImpl implements BookService {
             pageTotal++;
         }
         page.setPageTotal(pageTotal);
-
-        // 数据边界的有效检查
-        if (pageNo < 1) {
-            pageNo = 1;
-        }
-        if (pageNo > pageTotal) {
-            pageNo = pageTotal;
-        }
         page.setPageNo(pageNo);
 
-        int begin = (pageNo - 1) * pageSize;
+        int begin = (page.getPageNo() - 1) * pageSize;
         List<Book> items = bookDao.queryForPageItems(begin, pageSize);
+        page.setItems(items);
+
+        return page;
+    }
+
+    @Override
+    public Page<Book> pageByPrice(int pageNo, int pageSize, int min, int max) {
+        Page<Book> page = new Page<>();
+        page.setPageSize(pageSize);
+
+        // 求记录数
+        int totalCount = bookDao.queryForTotalCountByPrice(min, max);
+        page.setTotalCount(totalCount);
+
+        // 求总页数
+        int pageTotal = totalCount / pageSize;
+        if (totalCount % pageSize > 0) {
+            pageTotal++;
+        }
+        page.setPageTotal(pageTotal);
+        page.setPageNo(pageNo);
+
+        int begin = (page.getPageNo() - 1) * pageSize;
+        List<Book> items = bookDao.queryForPageItemsByPrice(begin, pageSize, min, max);
         page.setItems(items);
 
         return page;
