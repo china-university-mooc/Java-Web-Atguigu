@@ -18,6 +18,10 @@
 		// 验证码:现在只需要验证用户已输入。因为还没讲到服务器。验证码生成。
 
 		$(function () {
+			$('#code_img').click(function () {
+				this.src = "${basePath}kaptcha.jpg?d=" + new Date();
+			})
+
 			$('#sub_btn').click(function () {
 				var usernameText = $('#username').val();
 				var pattern = /^\w{5,12}$/;
@@ -96,8 +100,8 @@
 									<br />
 									<br />
 									<label>验证码：</label>
-									<input class="itxt" type="text" style="width: 150px;" id="code" name="code"/>
-									<img alt="" src="static/img/code.bmp" style="float: right; margin-right: 40px">
+									<input class="itxt" type="text" style="width: 120px;" id="code" name="code"/>
+									<img alt="" id="code_img" src="kaptcha.jpg" style="float: right; margin-right: 50px; width: 100px; height:40px">
 									<br />
 									<br />
 									<input type="submit" value="注册" id="sub_btn" />

@@ -23,5 +23,14 @@
     <orderEntry type="library" name="taglibs-standard-impl-1.2.1" level="project" />
     <orderEntry type="library" name="commons-logging-1.1.1" level="project" />
     <orderEntry type="library" name="book_lib" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/kaptcha-2.3.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

@@ -10,6 +10,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+import static com.google.code.kaptcha.Constants.KAPTCHA_SESSION_KEY;
+
 public class UserServlet extends BaseServlet {
 
     private final UserService userService = new UserServiceImpl();
@@ -28,9 +30,13 @@ public class UserServlet extends BaseServlet {
         String email = request.getParameter("email");
         User user = WebUtils.mapToBean(request.getParameterMap(), User.class);
 
-        if (code.equalsIgnoreCase("abcd")) {
+        String token = (String) request.getSession().getAttribute(KAPTCHA_SESSION_KEY);
+        request.getSession().removeAttribute(KAPTCHA_SESSION_KEY);
+
+        if (token != null && token.equalsIgnoreCase(code)) {
             if (!userService.existUserName(username)) {
                 userService.register(user);
+                request.getSession().setAttribute("user", user);
                 request.getRequestDispatcher("/pages/user/regist_success.jsp").forward(request, response);
             } else {
                 System.out.println("用户名[" + username + "]已存在");
