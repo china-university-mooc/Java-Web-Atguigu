@@ -61,6 +61,7 @@ public class UserServlet extends BaseServlet {
         String username = request.getParameter("username");
         User user = WebUtils.mapToBean(request.getParameterMap(), User.class);
         if (userService.login(user) != null) {
+            request.getSession().setAttribute("user", user);
             request.getRequestDispatcher("/pages/user/login_success.jsp").forward(request, response);
         } else {
             System.out.println("用户名或密码错误");
@@ -68,5 +69,10 @@ public class UserServlet extends BaseServlet {
             request.setAttribute("errMsg", "用户名或密码错误");
             request.getRequestDispatcher("/pages/user/login.jsp").forward(request, response);
         }
+    }
+
+    public void logout(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.getSession().invalidate();
+        response.sendRedirect(request.getContextPath());
     }
 }
