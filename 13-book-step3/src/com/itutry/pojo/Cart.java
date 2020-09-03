@@ -52,7 +52,7 @@ public class Cart {
     }
 
     public BigDecimal getTotalPrice() {
-        BigDecimal totalPrice = BigDecimal.valueOf(1);
+        BigDecimal totalPrice = BigDecimal.valueOf(0);
 
         for (CartItem value : items.values()) {
             totalPrice = totalPrice.add(value.getTotalPrice());

@@ -30,6 +30,6 @@ public class CartServlet extends BaseServlet {
         cart.addItem(cartItem);
 
         System.out.println(cart);
-        resp.sendRedirect(req.getContextPath());
+        resp.sendRedirect(req.getHeader("Referer"));
     }
 }
