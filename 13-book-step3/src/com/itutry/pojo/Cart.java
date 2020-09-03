@@ -34,10 +34,14 @@ public class Cart {
     }
 
     public void updateCount(Integer id, Integer count) {
-        CartItem cartItem = items.get(id);
-        if (cartItem != null) {
-            cartItem.setCount(count);
-            cartItem.setTotalPrice(cartItem.getPrice().multiply(BigDecimal.valueOf(cartItem.getCount())));
+        if (count <= 0) {
+            deleteItem(id);
+        } else {
+            CartItem cartItem = items.get(id);
+            if (cartItem != null) {
+                cartItem.setCount(count);
+                cartItem.setTotalPrice(cartItem.getPrice().multiply(BigDecimal.valueOf(cartItem.getCount())));
+            }
         }
     }
 

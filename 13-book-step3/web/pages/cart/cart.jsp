@@ -14,6 +14,16 @@
 			$("#clearCart").click(function () {
 				return confirm("你确定要清空购物车吗？");
 			})
+			$("input.updateCount").change(function () {
+				var count = $(this).val();
+				var id = $(this).attr("itemId");
+				var name = $(this).parent().parent().find("td:first").text();
+				if (confirm("你确定要将【" + name +"】的数量修改为" + count + "吗？")) {
+					location.href = "${pageScope.basePath}servlet/cart?action=updateCount&id=" + id + "&count=" + count;
+				} else {
+					$(this).val(this.defaultValue);
+				}
+			})
 		})
 	</script>
 </head>
@@ -42,7 +52,9 @@
 				<c:forEach items="${sessionScope.cart.items.values()}" var="item">
 					<tr>
 						<td>${item.name}</td>
-						<td>${item.count}</td>
+						<td>
+							<input itemId="${item.id}" class="updateCount" style="width: 80px" type="number" value="${item.count}">
+						</td>
 						<td>${item.price}</td>
 						<td>${item.totalPrice}</td>
 						<td><a class="deleteItem" href="servlet/cart?action=deleteItem&id=${item.id}">删除</a></td>
