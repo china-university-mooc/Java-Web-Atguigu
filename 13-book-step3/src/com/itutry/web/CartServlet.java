@@ -42,4 +42,12 @@ public class CartServlet extends BaseServlet {
 
         resp.sendRedirect(req.getHeader("Referer"));
     }
+
+    protected void clear(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        Cart cart = (Cart) req.getSession().getAttribute("cart");
+        if (cart != null) {
+            cart.clear();
+        }
+        resp.sendRedirect(req.getHeader("Referer"));
+    }
 }
