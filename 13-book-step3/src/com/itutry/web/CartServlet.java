@@ -29,7 +29,17 @@ public class CartServlet extends BaseServlet {
         }
         cart.addItem(cartItem);
 
-        System.out.println(cart);
+        resp.sendRedirect(req.getHeader("Referer"));
+    }
+
+    protected void deleteItem(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        int id = WebUtils.parseInt(req.getParameter("id"), 0);
+
+        Cart cart = (Cart) req.getSession().getAttribute("cart");
+        if (cart != null) {
+            cart.deleteItem(id);
+        }
+
         resp.sendRedirect(req.getHeader("Referer"));
     }
 }

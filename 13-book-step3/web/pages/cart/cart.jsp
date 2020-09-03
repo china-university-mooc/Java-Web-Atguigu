@@ -5,6 +5,14 @@
 <head>
 	<title>购物车</title>
 	<%@include file="/pages/common/head.jsp"%>
+	<script type="application/javascript">
+		$(function () {
+			$("a.deleteItem").click(function () {
+				var name = $(this).parent().parent().find("td:first").text();
+				return confirm("你确定要删除【" + name +"】吗？");
+			})
+		})
+	</script>
 </head>
 <body>
 	
@@ -34,7 +42,7 @@
 						<td>${item.count}</td>
 						<td>${item.price}</td>
 						<td>${item.totalPrice}</td>
-						<td><a href="#">删除</a></td>
+						<td><a class="deleteItem" href="servlet/cart?action=deleteItem&id=${item.id}">删除</a></td>
 					</tr>
 				</c:forEach>
 			</c:if>
