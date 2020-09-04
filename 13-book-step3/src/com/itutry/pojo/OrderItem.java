@@ -2,7 +2,7 @@ package com.itutry.pojo;
 
 import java.math.BigDecimal;
 
-public class OderItem {
+public class OrderItem {
 
     private Integer id;
     private String name;
@@ -11,10 +11,10 @@ public class OderItem {
     private BigDecimal totalPrice;
     private String orderId;
 
-    public OderItem() {
+    public OrderItem() {
     }
 
-    public OderItem(Integer id, String name, Integer count, BigDecimal price, BigDecimal totalPrice, String orderId) {
+    public OrderItem(Integer id, String name, Integer count, BigDecimal price, BigDecimal totalPrice, String orderId) {
         this.id = id;
         this.name = name;
         this.count = count;
