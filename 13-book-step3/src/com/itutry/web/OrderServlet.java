@@ -18,11 +18,11 @@ public class OrderServlet extends BaseServlet {
         Cart cart = (Cart) req.getSession().getAttribute("cart");
         User user = (User) req.getSession().getAttribute("user");
         if (user == null) {
-            req.getRequestDispatcher("/pages/user/login.jsp").forward(req, resp);
+            resp.sendRedirect(req.getContextPath() + "/pages/user/login.jsp");
         } else {
             String orderId = orderService.createOrder(cart, user.getId());
-            req.setAttribute("orderId", orderId);
-            req.getRequestDispatcher("/pages/cart/checkout.jsp").forward(req, resp);
+            req.getSession().setAttribute("orderId", orderId);
+            resp.sendRedirect(req.getContextPath() + "/pages/cart/checkout.jsp");
         }
     }
 }
