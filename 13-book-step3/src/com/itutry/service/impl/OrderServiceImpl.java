@@ -28,6 +28,8 @@ public class OrderServiceImpl implements OrderService {
         Order order = new Order(orderId, new Date(), cart.getTotalPrice(), 0, userId);
         orderDao.saveOder(order);
 
+        int i = 12 / 0;
+
         for (CartItem item : cart.getItems().values()) {
             OrderItem orderItem = new OrderItem(null, item.getName(), item.getCount(),
                     item.getPrice(), item.getTotalPrice(), orderId);

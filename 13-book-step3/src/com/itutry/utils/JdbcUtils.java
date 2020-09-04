@@ -14,6 +14,7 @@ import java.util.Properties;
 public class JdbcUtils {
 
   private static DruidDataSource dataSource;
+  private static final ThreadLocal<Connection> conns = new ThreadLocal<>();
 
   static {
     try {
@@ -27,13 +28,47 @@ public class JdbcUtils {
   }
 
   public static Connection getConnection() {
-    Connection conn = null;
-    try {
-      conn = dataSource.getConnection();
-    } catch (SQLException e) {
-      e.printStackTrace();
+    Connection conn = conns.get();
+
+    if (null == conn) {
+      try {
+        conn = dataSource.getConnection();
+        conns.set(conn);
+        conn.setAutoCommit(false);
+      } catch (SQLException e) {
+        e.printStackTrace();
+      }
     }
+
     return conn;
+  }
+
+  public static void commitAndClose() {
+    Connection conn = conns.get();
+    if (conn != null) {
+      try {
+        conn.commit();
+      } catch (SQLException e) {
+        e.printStackTrace();
+      } finally {
+        close(conn);
+      }
+      conns.remove();
+    }
+  }
+
+  public static void rollbackAndClose() {
+    Connection conn = conns.get();
+    if (conn != null) {
+      try {
+        conn.rollback();
+      } catch (SQLException e) {
+        e.printStackTrace();
+      } finally {
+        close(conn);
+      }
+      conns.remove();
+    }
   }
 
   public static void close(Connection connection) {
