@@ -52,4 +52,14 @@
         <servlet-name>OrderServlet</servlet-name>
         <url-pattern>/servlet/order</url-pattern>
     </servlet-mapping>
+
+    <filter>
+        <filter-name>managerFilter</filter-name>
+        <filter-class>com.itutry.filter.ManagerFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>managerFilter</filter-name>
+        <url-pattern>/pages/manager/*</url-pattern>
+        <url-pattern>/manager/book</url-pattern>
+    </filter-mapping>
 </web-app>
