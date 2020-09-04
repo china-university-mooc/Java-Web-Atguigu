@@ -27,7 +27,7 @@ public class TransactionFilter implements Filter {
             JdbcUtils.commitAndClose();
         } catch (Exception e) {
             JdbcUtils.rollbackAndClose();
-            e.printStackTrace();
+            throw new RuntimeException(e);
         }
     }
 
