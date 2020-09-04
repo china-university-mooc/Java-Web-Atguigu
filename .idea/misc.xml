@@ -10,6 +10,7 @@
     <file type="web" url="file://$PROJECT_DIR$/11-el-jstl" />
     <file type="web" url="file://$PROJECT_DIR$/12-file" />
     <file type="web" url="file://$PROJECT_DIR$/13-cookie-session" />
+    <file type="web" url="file://$PROJECT_DIR$/14-filter" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -19,6 +20,7 @@
         <option value="$PROJECT_DIR$/01-css/12-file/pom.xml" />
         <option value="$PROJECT_DIR$/12-file/pom.xml" />
         <option value="$PROJECT_DIR$/13-cookie-session/pom.xml" />
+        <option value="$PROJECT_DIR$/14-filter/pom.xml" />
       </list>
     </option>
   </component>

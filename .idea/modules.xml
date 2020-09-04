@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/11-el-jstl/11-el-jstl.iml" filepath="$PROJECT_DIR$/11-el-jstl/11-el-jstl.iml" />
       <module fileurl="file://$PROJECT_DIR$/12-file/12-file.iml" filepath="$PROJECT_DIR$/12-file/12-file.iml" />
       <module fileurl="file://$PROJECT_DIR$/13-book-step3/13-book-step3.iml" filepath="$PROJECT_DIR$/13-book-step3/13-book-step3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14-filter/14-filter.iml" filepath="$PROJECT_DIR$/14-filter/14-filter.iml" />
       <module fileurl="file://$PROJECT_DIR$/13-cookie-session/web-13-cookie-session.iml" filepath="$PROJECT_DIR$/13-cookie-session/web-13-cookie-session.iml" />
     </modules>
   </component>
