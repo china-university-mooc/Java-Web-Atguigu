@@ -23,6 +23,10 @@
         <servlet-name>CartServlet</servlet-name>
         <servlet-class>com.itutry.web.CartServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>OrderServlet</servlet-name>
+        <servlet-class>com.itutry.web.OrderServlet</servlet-class>
+    </servlet>
 
     <servlet-mapping>
         <servlet-name>UserServlet</servlet-name>
@@ -43,5 +47,9 @@
     <servlet-mapping>
         <servlet-name>CartServlet</servlet-name>
         <url-pattern>/servlet/cart</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>OrderServlet</servlet-name>
+        <url-pattern>/servlet/order</url-pattern>
     </servlet-mapping>
 </web-app>

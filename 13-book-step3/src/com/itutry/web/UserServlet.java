@@ -36,6 +36,7 @@ public class UserServlet extends BaseServlet {
         if (token != null && token.equalsIgnoreCase(code)) {
             if (!userService.existUserName(username)) {
                 userService.register(user);
+                user = userService.login(user);
                 request.getSession().setAttribute("user", user);
                 request.getRequestDispatcher("/pages/user/regist_success.jsp").forward(request, response);
             } else {
@@ -66,7 +67,8 @@ public class UserServlet extends BaseServlet {
     public void login(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String username = request.getParameter("username");
         User user = WebUtils.mapToBean(request.getParameterMap(), User.class);
-        if (userService.login(user) != null) {
+        user = userService.login(user);
+        if (user != null) {
             request.getSession().setAttribute("user", user);
             request.getRequestDispatcher("/pages/user/login_success.jsp").forward(request, response);
         } else {
