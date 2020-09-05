@@ -1,5 +1,8 @@
+<%@ page import="java.util.Locale" %>
+<%@ page import="java.util.ResourceBundle" %>
+<%@ page import="sun.util.locale.LocaleExtensions" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+		 pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -10,32 +13,47 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<a href="">中文</a>|
-	<a href="">english</a>
+	<%
+		// 1. 从请求头中获取Locale信息
+		Locale locale = null;
+
+		String contry = request.getParameter("contry");
+		if ("cn".equals(contry)) {
+			locale = Locale.CHINA;
+		} else if ("us".equals(contry)) {
+			locale = Locale.US;
+		} else {
+			locale = request.getLocale();
+		}
+
+		ResourceBundle bundle = ResourceBundle.getBundle("i18n", locale);
+	%>
+	<a href="/json/i18n.jsp?contry=cn">中文</a>|
+	<a href="/json/i18n.jsp?contry=us">english</a>
 	<center>
-		<h1>注册</h1>
+		<h1><%=bundle.getString("regist")%></h1>
 		<table>
 		<form>
 			<tr>
-				<td>用户名</td>
+				<td><%=bundle.getString("username")%></td>
 				<td><input name="username" type="text" /></td>
 			</tr>
 			<tr>
-				<td>密码</td>
+				<td><%=bundle.getString("password")%></td>
 				<td><input type="password" /></td>
 			</tr>
 			<tr>
-				<td>性别</td>
-				<td><input type="radio" />男<input type="radio" />女</td>
+				<td><%=bundle.getString("sex")%></td>
+				<td><input type="radio" /><%=bundle.getString("boy")%><input type="radio" /><%=bundle.getString("girl")%></td>
 			</tr>
 			<tr>
-				<td>邮箱</td>
+				<td><%=bundle.getString("email")%></td>
 				<td><input type="text" /></td>
 			</tr>
 			<tr>
 				<td colspan="2" align="center">
-				<input type="reset" value="重置" />&nbsp;&nbsp;
-				<input type="submit" value="提交" /></td>
+				<input type="reset" value="<%=bundle.getString("reset")%>" />&nbsp;&nbsp;
+				<input type="submit" value="<%=bundle.getString("submit")%>" /></td>
 			</tr>
 			</form>
 		</table>
