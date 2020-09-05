@@ -10,6 +10,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="web-13-cookie-session" />
+        <module name="15-json-ajax-i18n" />
         <module name="11-el-jstl" />
         <module name="12-file" />
         <module name="14-filter" />
@@ -21,6 +22,7 @@
       <module name="11-el-jstl" target="1.8" />
       <module name="12-file" target="1.8" />
       <module name="14-filter" target="1.8" />
+      <module name="15-json-ajax-i18n" target="1.8" />
       <module name="web-13-cookie-session" target="1.8" />
     </bytecodeTargetLevel>
   </component>

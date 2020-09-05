@@ -1,4 +1,4 @@
-package com.itutry.web;
+package com.itutry.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

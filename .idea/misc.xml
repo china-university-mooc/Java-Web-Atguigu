@@ -11,6 +11,7 @@
     <file type="web" url="file://$PROJECT_DIR$/12-file" />
     <file type="web" url="file://$PROJECT_DIR$/13-cookie-session" />
     <file type="web" url="file://$PROJECT_DIR$/14-filter" />
+    <file type="web" url="file://$PROJECT_DIR$/15-json-ajax-i18n" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -21,6 +22,7 @@
         <option value="$PROJECT_DIR$/12-file/pom.xml" />
         <option value="$PROJECT_DIR$/13-cookie-session/pom.xml" />
         <option value="$PROJECT_DIR$/14-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/15-json-ajax-i18n/pom.xml" />
       </list>
     </option>
   </component>
