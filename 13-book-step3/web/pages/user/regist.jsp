@@ -18,6 +18,17 @@
 		// 验证码:现在只需要验证用户已输入。因为还没讲到服务器。验证码生成。
 
 		$(function () {
+			$("#username").blur(function () {
+				var username = this.value;
+				$.getJSON("/book/userServlet", "action=ajaxExistsUsername&username=" + username, function (data) {
+					if (data.existUsername) {
+						$('.errorMsg').text('用户名已存在');
+					} else {
+						$('.errorMsg').text('用户名可用');
+					}
+				})
+			})
+
 			$('#code_img').click(function () {
 				this.src = "${basePath}kaptcha.jpg?d=" + new Date();
 			})

@@ -1,5 +1,6 @@
 package com.itutry.web;
 
+import com.google.gson.Gson;
 import com.itutry.pojo.User;
 import com.itutry.service.UserService;
 import com.itutry.service.impl.UserServiceImpl;
@@ -9,6 +10,8 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 import static com.google.code.kaptcha.Constants.KAPTCHA_SESSION_KEY;
 
@@ -34,7 +37,7 @@ public class UserServlet extends BaseServlet {
         request.getSession().removeAttribute(KAPTCHA_SESSION_KEY);
 
         if (token != null && token.equalsIgnoreCase(code)) {
-            if (!userService.existUserName(username)) {
+            if (!userService.existUsername(username)) {
                 userService.register(user);
                 user = userService.login(user);
                 request.getSession().setAttribute("user", user);
@@ -82,5 +85,16 @@ public class UserServlet extends BaseServlet {
     public void logout(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.getSession().invalidate();
         response.sendRedirect(request.getContextPath());
+    }
+
+    protected void ajaxExistsUsername(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String username = req.getParameter("username");
+
+        boolean existUsername = userService.existUsername(username);
+        Map<String, Object> resultMap = new HashMap<>();
+        resultMap.put("existUsername", existUsername);
+
+        Gson gson = new Gson();
+        resp.getWriter().write(gson.toJson(resultMap));
     }
 }

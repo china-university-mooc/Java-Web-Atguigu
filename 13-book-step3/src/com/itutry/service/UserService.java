@@ -12,5 +12,5 @@ public interface UserService {
 
   User login(User user);
 
-  boolean existUserName(String username);
+  boolean existUsername(String username);
 }
