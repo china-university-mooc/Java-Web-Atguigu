@@ -8,8 +8,16 @@
 	<script type="application/javascript">
 		$(function() {
 			$("button.addToCart").click(function() {
+				<%--var id = $(this).attr("bookId");--%>
+				<%--location.href = "${pageScope.basePath}servlet/cart?action=addItem&id=" + id;--%>
 				var id = $(this).attr("bookId");
-				location.href = "${pageScope.basePath}servlet/cart?action=addItem&id=" + id;
+				$.getJSON("${pageScope.basePath}servlet/cart",
+						"action=ajaxAddItem&id=" + id,
+						function (data) {
+							alert("添加购物车成功！");
+							$("#cartTotalCount").html("您的购物车中有" + data.totalCount + "件商品");
+							$("#cartLastName").html("您刚刚将<span style=\"color: red\">" + data.lastName + "</span>加入到了购物车中");
+						})
 			})
 		})
 	</script>
@@ -43,9 +51,14 @@
 				</form>
 			</div>
 			<div style="text-align: center">
-				<span>您的购物车中有${empty sessionScope.cart.totalCount ? 0 : sessionScope.cart.totalCount}件商品</span>
+				<span id="cartTotalCount">您的购物车中有${empty sessionScope.cart.totalCount ? 0 : sessionScope.cart.totalCount}件商品</span>
+				<c:if test="${empty sessionScope.cart.items}">
+					<div id = "cartLastName">
+
+					</div>
+				</c:if>
 				<c:if test="${not empty sessionScope.cart.items}">
-					<div>
+					<div id = "cartLastName">
 						您刚刚将<span style="color: red">${lastName}</span>加入到了购物车中
 					</div>
 				</c:if>
